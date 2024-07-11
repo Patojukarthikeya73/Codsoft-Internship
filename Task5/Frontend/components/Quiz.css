@@ -1,0 +1,107 @@
+.quiz-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap:0.6rem;
+    width: 20rem;
+    height:25rem;
+    background-color: rgb(8 47 73);
+    margin: auto;
+    margin-top: 4rem;
+    border-radius: 12px;
+    box-shadow: 5px 5px 3px black;
+}
+.quiz-option{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    /* height:15rem;
+    margin-top:.5rem; */
+}
+.quiz-option-btn{
+    width:15rem;
+    height: 2rem;
+    border-radius: 2rem;
+    border: none;
+    background-color: rgb(7 89 133);
+    color: white;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+.quiz-game-handle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+    
+}
+.quiz-quit{
+    margin: 1.3rem;
+    color: white;
+    background-color: rgb(127 29 29);
+    width: 4.5rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: 1.7rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.quiz-next{
+    margin: 1.3rem;
+    color: white;
+    background-color: rgb(8 47 73);
+    width:fit-content;
+    height: 2.5rem;
+    border: none;
+    border-radius: 1.7rem;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px;
+}
+.quiz-question-no{
+    width: 16rem;
+    display: flex;
+    justify-content: space-between;
+}
+.quiz-question{
+    width: 16rem;
+    align-self: flex-start;
+    margin-left: 1rem;
+    color: white;
+    font-size: 1.2rem;
+}
+.quiz-title{
+    color: white;
+    font-size: 1.5rem;
+}
+.quiz-q-score{
+    color: white;
+}
+.submit{
+    margin: 1.3rem;
+    color: white;
+    width: 6rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: 1.7rem;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: darkgreen !important;
+}
+.success{
+    background-color: green;
+}
+.error{
+    background-color: red;
+}
+.quiz-quit:hover{
+    background-color: rgb(69 10 10);
+}
+.quiz-next:hover{
+    background-color: rgb(14 116 144);
+}
+/* .quiz-option-btn:hover{
+    background-color: transparent;
+    border: 2px solid black;
+} */

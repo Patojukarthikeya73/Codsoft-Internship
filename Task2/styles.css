@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header h1 {
+    text-align: center;
+}
+
+header nav {
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#hero {
+    background: url('images/hero.jpg') no-repeat center center/cover;
+    height: 100vh;
+    color: #fff;
+    text-align: center;
+    padding-top: 150px;
+}
+
+#hero h2 {
+    font-size: 3rem;
+    color: #000;
+
+}
+
+#hero p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+    color:cadetblue;
+}
+
+#hero .btn {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 0; /* Added to reduce the gap */
+}
+body {
+    background: url("images (1).jpg") no-repeat center center/cover;
+    color: #fff;
+}
+section {
+    padding: 2rem 0;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+section p {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.services, .portfolio-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service, .portfolio-item {
+    flex: 1;
+    padding: 1rem;
+    margin: 0.5rem;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.service h3, .portfolio-item h3,p {
+    margin-bottom: 1rem;
+    color:#000;
+    
+
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid #ddd;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    background-color:#333;
+    display: inline;
+    border-left: 1px solid #000;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #555;
+}
+
+footer {
+    background:white;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+
+

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Board</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="fd">
+        <nav>
+            <img src="https://tse4.mm.bing.net/th?id=OIP.cUDsFklhEMMVOj95byVVQAHaHa&pid=Api&P=0&h=180" alt="inf" id="fi">
+            <a href="">Home</a>
+            <a href="">Browse Job</a>
+            <a href="">Pages</a>
+            <a href="">Blog</a>
+            <a href="">Contact</a>
+            <a href="">Login</a>
+            <button>Post a Job</button>
+        </nav>
+        <div class="artical">
+            <div class="ar">
+                <h4 class="count-animation">+<span style="counter-reset: jobCount 0;"> Jobs listed:</span></h4>
+                <h1>Find your Dream job</h1>
+                <p>We provide online instant cash loans with quick approval that suit your term length</p>
+                <button id="findJobButton">Upload your Resume</button>
+            </div>
+        </div>
+    </div>
+    <div id="so">
+        <select>
+            <option> Search Keyword</option>
+            <option>Web Developer</option>
+            <option>Data Science</option>
+            <option>AI</option>
+        </select>
+        <select>
+            <option>Location</option>
+            <option>Chandigarh</option>
+            <option>Noida</option>
+            <option>Banglore</option>
+        </select>
+        <select>
+            <option>Category</option>
+            <option>Genral</option>
+            <option>Obc</option>
+            <option>Sc/St</option>
+        </select>
+        <input type="button" value="findjob" id="bo">
+    </div>
+    <script>
+        window.onload = function() {
+            var jobCountElement = document.querySelector('.count-animation');
+            var jobCount = 0;
+            var targetCount = 1500;
+            function updateCount() {
+                jobCountElement.innerHTML = "+" + jobCount + " Jobs listed";
+                jobCount++;
+                if (jobCount <= targetCount) {
+                    setTimeout(updateCount, 10);
+                }
+            }
+            updateCount();
+        };
+    </script>
+</body>
+</html>

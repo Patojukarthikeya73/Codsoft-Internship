@@ -1,0 +1,33 @@
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    background-color: rgb(8 47 73);
+    height: 10vh;
+}
+.nav-head{
+    color: white;
+}
+.nav-head-container{
+   margin-left: 10vw;
+
+}
+.nav-list-container{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+.nave-onorder-list{
+    width: 25vw;
+  
+}
+.nav-lisi-item{
+    color: white;
+}
+.nav-link{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-right: 1.5rem;
+}
